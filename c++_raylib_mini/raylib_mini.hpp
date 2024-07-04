@@ -36,6 +36,8 @@ slow-simmered burgundy beef stew:
 #include <GL/glu.h>
 #include <iostream>
 #include <string>
+#include <unordered_map>
+#include <chrono>
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
@@ -55,6 +57,8 @@ static int targetFPS = 60;
 static HWND hwnd = NULL;
 static HDC hdc = NULL;
 static HGLRC hglrc = NULL;
+static std::unordered_map<int, bool> keyState;
+static std::unordered_map<int, std::chrono::steady_clock::time_point> keyPressTime;
 
 void InitWindow(int width, int height, const char *title);
 
@@ -186,11 +190,37 @@ void DrawText(const char *text, int posX, int posY, int fontSize, Color color) {
 }
 
 bool IsKeyPressed(int key) {
-    return GetAsyncKeyState(key) & 0x8000;
+    SHORT keyStateValue = GetAsyncKeyState(key);
+    bool isPressed = keyStateValue & 0x8000;
+    if (isPressed && !keyState[key]) {
+        keyState[key] = true;
+        return true;
+    }
+    if (!isPressed) {
+        keyState[key] = false;
+    }
+    return false;
 }
 
 bool IsKeyDown(int key) {
-    return GetAsyncKeyState(key) & 0x8000;
+    SHORT keyStateValue = GetAsyncKeyState(key);
+    bool isPressed = keyStateValue & 0x8000;
+    
+    if (isPressed) {
+        if (keyPressTime.find(key) == keyPressTime.end()) {
+            keyPressTime[key] = std::chrono::steady_clock::now();
+        } else {
+            auto now = std::chrono::steady_clock::now();
+            auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(now - keyPressTime[key]);
+            if (duration.count() > 300) { // 0.3 s
+                return true;
+            }
+        }
+    } else {
+        keyPressTime.erase(key);
+    }
+
+    return false;
 }
 
 #endif
