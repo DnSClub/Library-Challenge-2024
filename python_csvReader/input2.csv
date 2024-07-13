@@ -1,0 +1,27 @@
+name,age,city,occupation,salary
+Alice,30,New York,Engineer,90000
+Bob,25,Los Angeles,Designer,75000
+Charlie,35,Chicago,Manager,100000
+David,40,Houston,Developer,95000
+Eve,29,Phoenix,Analyst,72000
+Frank,50,Philadelphia,Architect,120000
+Grace,32,San Antonio,Doctor,110000
+Hank,28,San Diego,Teacher,60000
+Ivy,33,Dallas,Nurse,85000
+Jack,45,San Jose,Scientist,130000
+Karen,37,Austin,Lawyer,125000
+Leo,26,Jacksonville,Accountant,70000
+Mia,34,Fort Worth,Pharmacist,98000
+Nina,31,Columbus,Consultant,91000
+Oscar,38,Charlotte,Chef,68000
+Paul,42,Indianapolis,Photographer,72000
+Quinn,36,San Francisco,Artist,76000
+Ruth,39,Seattle,Writer,69000
+Steve,27,Denver,Journalist,66000
+Tina,41,Washington,Administrator,85000
+Uma,24,Boston,Clerk,55000
+Vince,43,El Paso,Technician,82000
+Wendy,44,Nashville,Editor,78000
+Xander,23,Detroit,Intern,40000
+Yara,47,Memphis,Researcher,105000
+Zane,48,Baltimore,Director,140000
