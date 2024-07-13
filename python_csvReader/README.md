@@ -33,7 +33,7 @@ csv_to_text.convert()
 
 ### Example
 
-Included are `input1.txt` and 'input2.csv':
+Included are `input1.txt` and `input2.csv`:
 
 Run `example.py`:
 
