@@ -43,6 +43,10 @@ Open your terminal and run the following commands:
   ```bash
   sudo apt-get install python3
   ```
+- **Kotlin:**
+  ```bash
+  sudo snap install --classic kotlin
+  ```
 
 ### macOS
 
