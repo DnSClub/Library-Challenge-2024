@@ -130,7 +130,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Additional Resources
 
-- [Library Challenge Intro Presentation]()
+- [Library Challenge Intro Presentation](https://tinyurl.com/3bjwhdrj)
 
 For any questions or issues, feel free to open an issue in this repository. Enjoy the challenge and happy coding!
 
