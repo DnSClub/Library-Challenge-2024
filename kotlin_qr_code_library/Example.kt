@@ -6,8 +6,11 @@ fun main()
     val filePath = "example.jpg"
     val fileType = "jpg"
     val imageDimension = 300 // in pixels
-    val qrFilePath = File(filePath)
+    val qrFile = File(filePath)
 
     val qrGenerator = QRCodeGenerator()
-    qrGenerator.createQRImg(qrFilePath, qrCodeText, imageDimension, fileType)
+    qrGenerator.setErrorCorrectionLevel('l')
+    val qr = qrGenerator.generateQRImg(qrCodeText, imageDimension)
+    qrGenerator.saveQRImg(qr, fileType, qrFile)
+    qrGenerator.showQRImg(qr)
 }
