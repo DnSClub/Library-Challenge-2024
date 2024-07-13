@@ -4,6 +4,10 @@
 
 Welcome to the Library Challenge 2024! This repository contains libraries and examples for you to create unique and interesting software using supported programming languages: C, C++, Python, and Kotlin.
 
+## DEVPOST
+
+Join the devpost for the competition <a href="https://libcomp.devpost.com/">here</a>!
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
