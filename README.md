@@ -126,7 +126,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Additional Resources
 
-- [Library Challenge Introduction Video](https://youtu.be/F_MRtEidph8)
+- [Library Challenge Intro Presentation]()
 
 For any questions or issues, feel free to open an issue in this repository. Enjoy the challenge and happy coding!
 
