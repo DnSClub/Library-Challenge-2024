@@ -1,3 +1,5 @@
+<img src="zimages/cpp_logo.png" width="75" height="75" />&nbsp;&nbsp;<img src="zimages/python_logo.png" width="75" height="75" />&nbsp;&nbsp;<img src="zimages/c_logo.png" width="75" height="75" />&nbsp;&nbsp;<img src="zimages/kotlin_logo.png" width="75" height="75" />
+
 # Library Challenge 2024
 
 Welcome to the Library Challenge 2024! This repository contains libraries and examples for you to create unique and interesting software using supported programming languages: C, C++, Python, and Kotlin.
