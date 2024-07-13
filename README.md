@@ -54,7 +54,7 @@ To install the required programming languages on macOS, follow the instructions 
 
 ## Compiling Examples
 
-To learn how to compile the library examples provided in this repository, watch this [compilation tutorial](https://youtu.be/Kn4JIKQeOOU).
+To learn how to compile the library examples provided in this repository, watch this [compilation tutorial](https://youtu.be/Kn4JIKQeOOU).  
 
 ### C/C++ Example
 
@@ -75,6 +75,8 @@ python3 example.py
 ```
 
 ### Kotlin Example
+
+__Note__: for Kotlin, it is highly recommended to use __IntelliJ Idea (Community Edition)__ as it allows you to configure a project's build settings and run it without compiling directly. See <a href="https://kotlinlang.org/docs/kotlin-ide.html#intellij-idea">this link</a> for more IDE recommendations.  
 
 To compile and run a Kotlin example, use the following commands:
 
@@ -109,6 +111,8 @@ import library
 ```
 
 ### Kotlin Usage
+
+Please see [this section](#kotlin-example) for an important note.
 
 Include the necessary packages and use the provided classes and functions in your Kotlin projects. For example:
 
