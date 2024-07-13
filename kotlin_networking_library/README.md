@@ -6,7 +6,7 @@ It is highly recommended to use <a href="https://www.jetbrains.com/idea/download
 
 ## Coroutines
 
-Furthermore, if you plan to use coroutines please add the following line to your __build.gradle.kts__ file:  
+Furthermore, if you plan to use coroutines, it is recommended to use __Gradle__. Please add the following line to your __build.gradle.kts__ file:  
 `implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:[VERSION]")`  
 This code has been tested with version `1.9.0-RC`.  
 You can find more on this <a href="https://github.com/Kotlin/kotlinx.coroutines#using-in-your-projects">here</a>.
