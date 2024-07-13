@@ -76,7 +76,7 @@ python3 example.py
 
 ### Kotlin Example
 
-__Note__: for Kotlin, it is highly recommended to use __IntelliJ Idea (Community Edition)__ as it allows you to configure a project's build settings and run it without compiling directly. See <a href="https://kotlinlang.org/docs/kotlin-ide.html#intellij-idea">this link</a> for more IDE recommendations.  
+__Note__: for Kotlin, it is highly recommended to use __IntelliJ Idea (Community Edition)__ as it allows you to configure a project's build settings and run it without compiling directly. It's also developed & maintained by JetBrains, the company behind the language! See <a href="https://kotlinlang.org/docs/kotlin-ide.html#intellij-idea">this link</a> for more IDE recommendations.  
 
 To compile and run a Kotlin example, use the following commands:
 
